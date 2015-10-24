@@ -1,0 +1,108 @@
+#banner {
+  width: 100%;
+  min-height: 600px;
+  background-color: #00BCBD;
+}
+
+#banner h2 {
+  color: white;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+#banner h3 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+#experience{
+  margin-top: 0;
+  width: 100%;
+  background-color: #EEEEEE;
+  height: auto;
+}
+
+#education{
+  background-color: black;
+  width: 100%;
+  margin-top: 0;
+}
+
+#skills{
+  background-color: blue;
+}
+
+.section-header h3{
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FF675F;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 34px;
+}
+
+.section-header p{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.banner-left{
+  float: left;
+  width: 30%;
+}
+
+.banner-left img{
+  margin-top: 155px;
+  margin-left: 150px;
+}
+
+.banner-right{
+  float: right;
+  width: 70%;
+  margin-top: 200;
+}
+
+.download-button{
+  margin-top: 50px;
+  text-align: center;
+}
+
+hr{
+  background-color: #52edc7;
+  height: 3px;
+  border: none;
+  width: 20%;
+}
+
+.navbar {
+  margin-bottom: 10px;
+  border: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-default {
+  background-color: #272B37;
+  border-color: #E7E7E7;
+}
+
