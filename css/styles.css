@@ -1,3 +1,12 @@
+/*
+ *  This stylesheet contains the main styles for the site layout
+ *
+ *  Author: Alex Knipfer
+ */
+
+
+/******************** THE FOLLOWING IS STYLES FOR THE UPPER BANNER ************/
+
 #banner {
   width: 100%;
   min-height: 600px;
@@ -7,6 +16,7 @@
 #banner h2 {
   color: white;
   font-weight: 400;
+  font-size: 34px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 4px;
   text-align: center;
@@ -16,29 +26,111 @@
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  font-size: 24px;
   text-align: center;
 }
 
-#experience{
+#banner hr {
+  background-color: #52edc7;
+  height: 3px;
+  border: none;
+  width: 20%;
+}
+
+.banner-left {
+  float: left;
+  width: 30%;
+}
+
+.banner-left img {
+  margin-top: 155px;
+  margin-left: 150px;
+}
+
+.banner-right {
+  float: right;
+  width: 70%;
+  margin-top: 200;
+}
+
+
+/******************************************************************************/
+
+#experience {
   margin-top: 0;
   width: 100%;
   background-color: #EEEEEE;
   height: auto;
 }
 
-#education{
-  background-color: black;
+/****************** EDUCATION SECTION *****************************************/
+
+#education {
+  background-color: #FFFFFF;
   width: 100%;
   margin-top: 0;
 }
 
-#skills{
-  background-color: blue;
+.education-block {
+  background-color: #F3F3F3;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
 }
 
-.section-header h3{
+.education-block h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.education-block h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.education-block h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #84868d;
+}
+
+hr.double-line {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.double-line:after {
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+}
+
+/******************************************************************************/
+
+#skills {
+  background-color: #EEEEEE;
+}
+
+.section-header h3 {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 60px;
   font-family: 'Open Sans', sans-serif;
   color: #FF675F;
   font-weight: 300;
@@ -46,7 +138,7 @@
   font-size: 34px;
 }
 
-.section-header p{
+.section-header p {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: black;
@@ -55,41 +147,22 @@
   margin-top: 10px;
 }
 
-.banner-left{
-  float: left;
-  width: 30%;
-}
-
-.banner-left img{
-  margin-top: 155px;
-  margin-left: 150px;
-}
-
-.banner-right{
-  float: right;
-  width: 70%;
-  margin-top: 200;
-}
-
-.download-button{
+.download-button {
   margin-top: 50px;
   text-align: center;
 }
 
-hr{
-  background-color: #52edc7;
-  height: 3px;
-  border: none;
-  width: 20%;
-}
+
+/******************NAVBAR BOOTSTRAP OVERRIDE FOR CUSTOMIZATION*****************/
 
 .navbar {
   margin-bottom: 10px;
   border: 0;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: white;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
 }
 
 .navbar .navbar-nav {
@@ -106,3 +179,5 @@ hr{
   border-color: #E7E7E7;
 }
 
+
+/******************************************************************************/
